@@ -1,5 +1,8 @@
+html {
+  font-size: 100%
+}
 body {
-  background-color: #95a5a6;
+  background-color: #ffeae6;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -8,21 +11,36 @@ body {
 }
 
 main {
-  width: 500px;
-  height: 150px;
-  border: 2px solid #65655e;
-  background-color: #ecf0f1;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  width: 400px;
+  padding: 15px;
+  background-color: #ffffff;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   margin: auto;
   -webkit-box-shadow: 5px 5px #BDBDBD;
   box-shadow: 5px 5px #BDBDBD;
+  
 }
 
 h1 {
-  color:#2c3e50;
-  font-style: oblique;
+  text-align: center;
+  color: #99ffcc;
+  font-size: 2rem; 
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+#icon {
+  color: #9999cc;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
 }
